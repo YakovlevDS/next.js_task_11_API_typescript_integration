@@ -13,6 +13,12 @@ export type contactType = {
 };
 
 export type postType = {
+  id: string,
   title: string,
   body: string,
+}
+export type socialsType = {
+  id: number,
+  icon: string,
+  path:string,
 }
